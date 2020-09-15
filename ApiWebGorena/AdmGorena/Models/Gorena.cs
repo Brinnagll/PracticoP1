@@ -20,7 +20,7 @@
         [StringLength(24, ErrorMessage = "The filed {0} must contain between {2} and {1} characters.", MinimumLength = 2)]
         [DisplayName("Nombre completo")]
         [Required(ErrorMessage = "You must enter your full name {0}")]
-        public string FriendOfGorena { get; set; }
+        public string FriendOfGorena { get; set; } 
 
         [Required(ErrorMessage = "Debe ingresar el nombre del producto")]
         public typeplace Place { get; set; }
